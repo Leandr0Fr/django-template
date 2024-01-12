@@ -11,3 +11,6 @@ Template para un proyecto Django
 - *Para ambiente de desarrollo:* ```python manage.py runserver --settings=core.settings.local```
 - *Para ambiente de producción:* ```python manage.py runserver --settings=core.settings.production```
 
+# Aclaraciones
+Al momento de utilizar el manage.py, en ocasiones, es necesario especificar la configuración.
+Ejemplo: ```python manage.py migrate --settings=core.settings.local```
